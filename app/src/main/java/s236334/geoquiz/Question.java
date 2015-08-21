@@ -12,7 +12,6 @@ public class Question {
         mTextResId = textResId;
         mAnswerTrue = answerTrue;
     }
-
     public boolean isAnswerTrue() {
         return mAnswerTrue;
     }
