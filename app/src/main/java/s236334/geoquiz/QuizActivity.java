@@ -57,7 +57,7 @@ public class QuizActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate() called");
         setContentView(R.layout.activity_quiz);
 
-        mQuestionTextView = (TextView) findViewById(R.id.question_text_view);
+        // mQuestionTextView = (TextView) findViewById(R.id.question_text_view);
 
         mTrueButton = (Button) findViewById(R.id.true_button);
         mTrueButton.setOnClickListener(new View.OnClickListener() {
@@ -75,7 +75,7 @@ public class QuizActivity extends AppCompatActivity {
             }
         });
 
-/*
+    /*
         mPreviousButton = (ImageButton) findViewById(R.id.previous_button);
         mPreviousButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,7 +84,8 @@ public class QuizActivity extends AppCompatActivity {
                 updateQuestion();
             }
         });
-*/
+    */
+
         mNextButton = (ImageButton) findViewById(R.id.next_button);
         mNextButton.setOnClickListener(new View.OnClickListener() {
             @Override
